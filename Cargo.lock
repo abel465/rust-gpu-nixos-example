@@ -898,7 +898,7 @@ checksum = "08d43f7aa6b08d49f382cde6a7982047c3426db949b1424bc4b7ec9ae12c6ce2"
 [[package]]
 name = "rustc_codegen_spirv"
 version = "0.9.0"
-source = "git+https://github.com/Rust-GPU/rust-gpu?rev=40456ae2f59055680befb903b2aa27ed0bba920e#40456ae2f59055680befb903b2aa27ed0bba920e"
+source = "git+https://github.com/Rust-GPU/rust-gpu?rev=775b5d5fa4a8ac7417c5d6abc9176522c000f88c#775b5d5fa4a8ac7417c5d6abc9176522c000f88c"
 dependencies = [
  "ar",
  "either",
@@ -914,8 +914,6 @@ dependencies = [
  "rustc-demangle",
  "rustc_codegen_spirv-types",
  "sanitize-filename",
- "serde",
- "serde_json",
  "smallvec",
  "spirt",
  "spirv-tools",
@@ -925,10 +923,11 @@ dependencies = [
 [[package]]
 name = "rustc_codegen_spirv-types"
 version = "0.9.0"
-source = "git+https://github.com/Rust-GPU/rust-gpu?rev=40456ae2f59055680befb903b2aa27ed0bba920e#40456ae2f59055680befb903b2aa27ed0bba920e"
+source = "git+https://github.com/Rust-GPU/rust-gpu?rev=775b5d5fa4a8ac7417c5d6abc9176522c000f88c#775b5d5fa4a8ac7417c5d6abc9176522c000f88c"
 dependencies = [
  "rspirv",
  "serde",
+ "serde_json",
 ]
 
 [[package]]
@@ -1080,7 +1079,7 @@ dependencies = [
 [[package]]
 name = "spirv-builder"
 version = "0.9.0"
-source = "git+https://github.com/Rust-GPU/rust-gpu?rev=40456ae2f59055680befb903b2aa27ed0bba920e#40456ae2f59055680befb903b2aa27ed0bba920e"
+source = "git+https://github.com/Rust-GPU/rust-gpu?rev=775b5d5fa4a8ac7417c5d6abc9176522c000f88c#775b5d5fa4a8ac7417c5d6abc9176522c000f88c"
 dependencies = [
  "memchr",
  "raw-string",
@@ -1093,7 +1092,7 @@ dependencies = [
 [[package]]
 name = "spirv-std"
 version = "0.9.0"
-source = "git+https://github.com/Rust-GPU/rust-gpu?rev=40456ae2f59055680befb903b2aa27ed0bba920e#40456ae2f59055680befb903b2aa27ed0bba920e"
+source = "git+https://github.com/Rust-GPU/rust-gpu?rev=775b5d5fa4a8ac7417c5d6abc9176522c000f88c#775b5d5fa4a8ac7417c5d6abc9176522c000f88c"
 dependencies = [
  "bitflags 1.3.2",
  "glam",
@@ -1105,7 +1104,7 @@ dependencies = [
 [[package]]
 name = "spirv-std-macros"
 version = "0.9.0"
-source = "git+https://github.com/Rust-GPU/rust-gpu?rev=40456ae2f59055680befb903b2aa27ed0bba920e#40456ae2f59055680befb903b2aa27ed0bba920e"
+source = "git+https://github.com/Rust-GPU/rust-gpu?rev=775b5d5fa4a8ac7417c5d6abc9176522c000f88c#775b5d5fa4a8ac7417c5d6abc9176522c000f88c"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1116,7 +1115,7 @@ dependencies = [
 [[package]]
 name = "spirv-std-types"
 version = "0.9.0"
-source = "git+https://github.com/Rust-GPU/rust-gpu?rev=40456ae2f59055680befb903b2aa27ed0bba920e#40456ae2f59055680befb903b2aa27ed0bba920e"
+source = "git+https://github.com/Rust-GPU/rust-gpu?rev=775b5d5fa4a8ac7417c5d6abc9176522c000f88c#775b5d5fa4a8ac7417c5d6abc9176522c000f88c"
 
 [[package]]
 name = "spirv-tools"

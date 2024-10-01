@@ -43,7 +43,7 @@
           src = ./.;
           cargoLock.lockFile = ./Cargo.lock;
           cargoLock.outputHashes = {
-            "rustc_codegen_spirv-0.9.0" = "sha256-6QENP2ttWrtykfv+TUfjGrOajkN2X9cHYINauFZiup8=";
+            "rustc_codegen_spirv-0.9.0" = "sha256-99YuiuPVb/OLTmFN/TTlDhoKpkO8hMwmdQtPHym7dag=";
           };
           nativeBuildInputs = [pkgs.makeWrapper];
           configurePhase = ''
