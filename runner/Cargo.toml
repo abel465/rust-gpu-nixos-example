@@ -1,0 +1,17 @@
+[package]
+name = "runner"
+version = "0.0.0"
+publish = false
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+
+# See rustc_codegen_spirv/Cargo.toml for details on these features
+[features]
+default = ["use-compiled-tools"]
+use-installed-tools = ["spirv-builder/use-installed-tools"]
+use-compiled-tools = ["spirv-builder/use-compiled-tools"]
+
+[dependencies]
+wgpu = { version = "0.20.1", features = ["spirv", "vulkan-portability"] }
+spirv-builder = { workspace = true }

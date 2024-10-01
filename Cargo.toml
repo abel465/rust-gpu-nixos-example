@@ -1,0 +1,22 @@
+[workspace]
+resolver = "2"
+members = ["runner", "shaders/shader"]
+default-members = ["runner"]
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Abel <abel465@gmail.com>"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+[workspace.dependencies.spirv-std]
+git = "https://github.com/Rust-GPU/rust-gpu"
+rev = "40456ae2f59055680befb903b2aa27ed0bba920e"
+
+[workspace.dependencies.spirv-builder]
+git = "https://github.com/Rust-GPU/rust-gpu"
+rev = "40456ae2f59055680befb903b2aa27ed0bba920e"
+default-features = false
+
+[profile.dev]
+package.spirv-tools-sys.opt-level = 1
